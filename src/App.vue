@@ -7,14 +7,6 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav class="ml-auto">
-      <!-- <b-navbar-nav>
-        <b-nav-item href="#"><router-link to="/">Home</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/about">About</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/contact">Contact</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/services">Services</router-link></b-nav-item>
-      </b-navbar-nav> -->
-
-      <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto" right>
         <b-nav-item href="#"><router-link to="/">Home</router-link></b-nav-item>
         <b-nav-item href="#"><router-link to="/about">About</router-link></b-nav-item>
@@ -29,8 +21,10 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -40,5 +34,10 @@
 a {
   text-decoration: none;
   color: #000;
+}
+
+a:hover {
+  color: rgb(255, 149, 220);
+  transition: ease-in-out 0.1s;
 }
 </style>
