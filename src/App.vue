@@ -1,24 +1,29 @@
 <template>
   <div id="app">
-    <div>
-  <b-navbar toggleable="lg" type="light" variant="light">
-    <b-navbar-brand href="#"><img width="300px" src="..\img\Logo.png"></b-navbar-brand>
-
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-    <b-collapse id="nav-collapse" is-nav class="ml-auto">
-      <b-navbar-nav class="ml-auto" right>
-        <b-nav-item href="#"><router-link to="/">Home</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/about">About</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/contact">Contact</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/services">Services</router-link></b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
-</div>
-    <router-view/>
+    <Navbar v-bind:img="imageData.img" v-bind:alt="imageData.alt" />
   </div>
 </template>
+
+<script>
+// Logo Image
+import img from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/Logo.png";
+  import Navbar from "./components/Navbar.vue";
+
+export default {
+  components: {
+    Navbar
+  },
+  data() {
+    return {
+      imageData:
+      {
+        img: img,
+        alt: "Logo"
+      }
+    }
+  }
+};
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
