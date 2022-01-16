@@ -5,12 +5,14 @@
     v-bind:carousel2="carousel2"
     v-bind:carousel3="carousel3"
     v-bind:carousel4="carousel4" />
+    <Gallery />
   </div>
 </template>
 
 <script>
 // Components
 import Carousel from '../components/Carousel.vue';
+import Gallery from '../components/Gallery.vue';
 // Carousel Images
 import carousel1 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/carousel01.jpg";
 import carousel2 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/carousel02.jpg";
@@ -22,7 +24,8 @@ export default {
   name: 'Home',
 
   components: {
-    Carousel
+    Carousel,
+    Gallery
   },
 
   data() {
