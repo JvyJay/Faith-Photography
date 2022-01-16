@@ -6,7 +6,7 @@
 
 <script>
 // Logo Image
-import img from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/Logo.png";
+import img from "./assets/logo.png";
   import Navbar from "./components/Navbar.vue";
 
 export default {

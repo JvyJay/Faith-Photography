@@ -1,61 +1,43 @@
 <template>
     <div>
-        <b-container>
+        <b-container fluid>
             <b-row>
-                <b-col><img v-bind:img-src="img1"></b-col>
-                <b-col><img v-bind:img-src="img2" alt=""></b-col>
+                <b-col><img v-bind:img-src="img1" alt="image 1"></b-col>
+                <b-col><img v-bind:img-src="img2" alt="image 2"></b-col>
             </b-row>
             <b-row>
-                <b-col><img v-bind:img-src="img3" alt=""></b-col>
-                <b-col><img v-bind:img-src="img4" alt=""></b-col>
+                <b-col><img v-bind:img-src="img3" alt="image 3"></b-col>
+                <b-col><img v-bind:img-src="img4" alt="image 4"></b-col>
             </b-row>
             <b-row>
-                <b-col><img v-bind:img-src="img5" alt=""></b-col>
-                <b-col><img v-bind:img-src="img6" alt=""></b-col>
+                <b-col><img v-bind:img-src="img5" alt="image 5"></b-col>
+                <b-col><img v-bind:img-src="img6" alt="image 6"></b-col>
             </b-row>
             <b-row>
-                <b-col><img v-bind:img-src="img7" alt=""></b-col>
-                <b-col><img v-bind:img-src="img8" alt=""></b-col>
+                <b-col><img v-bind:img-src="img7" alt="image 7"></b-col>
+                <b-col><img v-bind:img-src="img8" alt="image 8"></b-col>
             </b-row>
         </b-container>
     </div>
 </template>
 
 <script>
-// Gallery Images
-import img1 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/image0.jpeg";
-import img2 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/image2.jpeg";
-import img3 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/img1.png";
-import img4 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/img2.png";
-import img5 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/img4.png";
-import img6 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/img5.png";
-import img7 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/img7.png";
-import img8 from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/img/img8.png";
-
-
-
-export default {
-    name: "Gallery",
-
-    data() {
-        return {
-            img1: img1,
-            img2: img2,
-            img3: img3,
-            img4: img4,
-            img5: img5,
-            img6: img6,
-            img7: img7,
-            img8: img8
-        }
+import Vue from "vue";
+export default Vue.component("Gallery",{
+    props: {
+        img1: String,
+        img2: String,
+        img3: String,
+        img4: String,
+        img5: String,
+        img6: String,
+        img7: String,
+        img8: String,
     }
 
-}
+})
 </script>
 
 <style scoped>
-    img {
-        width: 15% !important;
-    }
 </style>
 

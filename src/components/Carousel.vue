@@ -7,22 +7,22 @@
     indicators
   >
     <b-carousel-slide
-      v-bind:img-src="carousel1"
+      :img-src="carousel1"
       class="carousel-img"
     ></b-carousel-slide>
     <b-carousel-slide
-      v-bind:img-src="carousel2"
+      :img-src="carousel2"
       class="carousel-img"
     ></b-carousel-slide>
     <b-carousel-slide
-      v-bind:img-src="carousel3"
+      :img-src="carousel3"
       class="carousel-img"
     ></b-carousel-slide>
     <b-carousel-slide
-      v-bind:img-src="carousel4"
+      :img-src="carousel4"
       class="carousel-img"
     ></b-carousel-slide>
-  </b-carousel>
+    </b-carousel>
 </div>
 </template>
 
@@ -34,7 +34,7 @@ export default Vue.component("Carousel", {
         carousel1: String,
         carousel2: String,
         carousel3: String,
-        carousel4: String
+        carousel4: String,
     }
 })
 </script>
