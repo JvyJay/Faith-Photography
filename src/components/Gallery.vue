@@ -2,20 +2,55 @@
     <div>
         <b-container class="gallery-container">
             <b-row>
-                <b-col><Card v-bind:img="gallery[0].images[0].img" v-bind:alt="gallery[0].images[0].alt" /></b-col>
-                <b-col><Card v-bind:img="gallery[0].images[1].img" v-bind:alt="gallery[0].images[1].alt" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[0].images[0].img" 
+                v-bind:alt="gallery[0].images[0].alt"
+                v-bind:title="gallery[0].images[0].title" 
+                v-bind:subtitle="gallery[0].images[0].subtitle"
+                 />
+                </b-col>
+                <b-col><Card 
+                v-bind:img="gallery[0].images[1].img" 
+                v-bind:alt="gallery[0].images[1].alt"
+                v-bind:title="gallery[0].images[1].title" 
+                v-bind:subtitle="gallery[0].images[1].subtitle" />
+                </b-col>
             </b-row>
             <b-row>
-                <b-col><Card v-bind:img="gallery[1].images[0].img" v-bind:alt="gallery[1].images[0].alt" /></b-col>
-                <b-col><Card v-bind:img="gallery[1].images[1].img" v-bind:alt="gallery[1].images[1].alt" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[1].images[0].img" 
+                v-bind:alt="gallery[1].images[0].alt"
+                v-bind:title="gallery[1].images[0].title" 
+                v-bind:subtitle="gallery[1].images[0].subtitle" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[1].images[1].img" 
+                v-bind:alt="gallery[1].images[1].alt"
+                v-bind:title="gallery[1].images[1].title" 
+                v-bind:subtitle="gallery[1].images[1].subtitle" /></b-col>
             </b-row>
             <b-row>
-                <b-col><Card v-bind:img="gallery[2].images[0].img" v-bind:alt="gallery[2].images[0].alt" /></b-col>
-                <b-col><Card v-bind:img="gallery[2].images[1].img" v-bind:alt="gallery[2].images[1].alt" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[2].images[0].img" 
+                v-bind:alt="gallery[2].images[0].alt"
+                v-bind:title="gallery[2].images[0].title" 
+                v-bind:subtitle="gallery[2].images[0].subtitle" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[2].images[1].img" 
+                v-bind:alt="gallery[2].images[1].alt"
+                v-bind:title="gallery[2].images[1].title" 
+                v-bind:subtitle="gallery[2].images[1].subtitle" /></b-col>
             </b-row>
             <b-row>
-                <b-col><Card v-bind:img="gallery[3].images[0].img" v-bind:alt="gallery[3].images[0].alt" /></b-col>
-                <b-col><Card v-bind:img="gallery[3].images[1].img" v-bind:alt="gallery[3].images[1].alt" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[3].images[0].img" 
+                v-bind:alt="gallery[3].images[0].alt"
+                v-bind:title="gallery[3].images[0].title" 
+                v-bind:subtitle="gallery[3].images[0].subtitle" /></b-col>
+                <b-col><Card 
+                v-bind:img="gallery[3].images[1].img" 
+                v-bind:alt="gallery[3].images[1].alt"
+                v-bind:title="gallery[3].images[1].title" 
+                v-bind:subtitle="gallery[3].images[1].subtitle" /></b-col>
             </b-row>
         </b-container>
     </div>
@@ -49,12 +84,16 @@ export default Vue.component("Gallery",{
                     {
                   id: 0,
                   img: img1,
-                  alt: "Image 1"
+                  alt: "Image 1",
+                  title: "Salt Creek",
+                  subtitle: "Port Angeles, WA"
                 },
                 {
                   id: 1,
                   img: img2,
-                  alt: "Image 2"
+                  alt: "Image 2",
+                  title: "Salt Creek",
+                  subtitle: "Port Angeles, WA"
                 },
           ]
         },
@@ -65,12 +104,16 @@ export default Vue.component("Gallery",{
                     {
                   id: 0,
                   img: img3,
-                  alt: "Image 3"
+                  alt: "Image 3",
+                  title: "Point Defiance Rose Garden",
+                  subtitle: "Tacoma, WA"
                 },
                 {
                   id: 1,
                   img: img4,
-                  alt: "Image 4"
+                  alt: "Image 4",
+                  title: "Lake Crescent",
+                  subtitle: "Port Angeles, WA"
                 },
           ]
         },
@@ -81,12 +124,16 @@ export default Vue.component("Gallery",{
                     {
                   id: 0,
                   img: img5,
-                  alt: "Image 5"
+                  alt: "Image 5",
+                  title: "Point Defiance Rose Garden",
+                  subtitle: "Tacoma, WA"
                 },
                 {
                   id: 1,
                   img: img6,
-                  alt: "Image 6"
+                  alt: "Image 6",
+                  title: "Point Defiance Rose Garden",
+                  subtitle: "Tacoma, WA"
                 },
           ]
         },
@@ -97,12 +144,16 @@ export default Vue.component("Gallery",{
                     {
                   id: 0,
                   img: img7,
-                  alt: "Image 7"
+                  alt: "Image 7",
+                  title: "Point Defiance Rose Garden",
+                  subtitle: "Tacoma, WA"
                 },
                 {
                   id: 1,
                   img: img8,
-                  alt: "Image 8"
+                  alt: "Image 8",
+                  title: "Lake Crescent",
+                  subtitle: "Port Angeles, WA"
                 },
           ]
         },
