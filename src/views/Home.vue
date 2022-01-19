@@ -1,13 +1,12 @@
 <template>
   <div>
-    <div>
     <Carousel 
     v-bind:carousel1="carousel1"
     v-bind:carousel2="carousel2"
     v-bind:carousel3="carousel3"
     v-bind:carousel4="carousel4" />
     <Gallery />
-    </div>
+    <Footer />
   </div>
 </template>
 
@@ -15,6 +14,7 @@
 // Components
 import Carousel from '../components/Carousel.vue';
 import Gallery from '../components/Gallery.vue';
+import Footer from '../components/Footer.vue';
 // Carousel Images
 import carousel1 from "../assets/carousel01.jpg";
 import carousel2 from "../assets/carousel02.jpg";
@@ -27,7 +27,8 @@ export default {
 
   components: {
     Carousel,
-    Gallery
+    Gallery,
+    Footer
   },
 
   data() {

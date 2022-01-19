@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-container>
+        <b-container class="gallery-container">
             <b-row>
                 <b-col><Card v-bind:img="gallery[0].images[0].img" v-bind:alt="gallery[0].images[0].alt" /></b-col>
                 <b-col><Card v-bind:img="gallery[0].images[1].img" v-bind:alt="gallery[0].images[1].alt" /></b-col>
@@ -30,7 +30,7 @@ import img1 from "../assets/image0.jpeg";
 import img2 from "../assets/image2.jpeg";
 import img3 from "../assets/img1.png";
 import img4 from "../assets/img2.png";
-import img5 from "../assets/img3.png";
+import img5 from "../assets/img9.png";
 import img6 from "../assets/img4.png";
 import img7 from "../assets/img5.png";
 import img8 from "../assets/img6.png";
@@ -114,6 +114,13 @@ export default Vue.component("Gallery",{
 })
 </script>
 
-<style scoped>
+<style>
+.gallery-container {
+    margin-top: 5%;
+}
+
+.row {
+    margin: 0 0 5% 0 !important;
+}
 </style>
 

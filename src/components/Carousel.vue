@@ -40,7 +40,5 @@ export default Vue.component("Carousel", {
 </script>
 
 <style scoped>
-.carousel-img {
-  height: 75vh !important;
-}
+
 </style>
