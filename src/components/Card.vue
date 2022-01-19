@@ -1,10 +1,9 @@
 <template>
     <div>
         <b-card
-            overlay
-            img-src=""
-            img-alt="Card Image"
-            text-variant="white"
+            v-bind:img-src="img"
+            v-bind:img-alt="alt"
+            text-variant="black"
             title="Image Overlay"
             sub-title="Subtitle"
         >
@@ -20,6 +19,8 @@ import Vue from "vue";
 
 export default Vue.component("Card", {
     props: {
+        img: String,
+        alt: String
     }
 })
 </script>
