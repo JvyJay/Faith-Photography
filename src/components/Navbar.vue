@@ -2,7 +2,7 @@
   <div>
     <div>
   <b-navbar toggleable="lg" type="light" variant="light">
-    <b-navbar-brand href="#"><img width="300px" :src="img" alt="alt"></b-navbar-brand>
+    <b-navbar-brand href="#"><img width="200px" :src="img" alt="alt"></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

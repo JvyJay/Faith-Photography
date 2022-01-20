@@ -40,5 +40,7 @@ export default Vue.component("Carousel", {
 </script>
 
 <style scoped>
-
+#carousel-fade {
+  margin-bottom: 100px !important;
+}
 </style>

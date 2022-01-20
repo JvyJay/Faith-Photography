@@ -145,15 +145,15 @@ export default Vue.component("Gallery",{
                   id: 0,
                   img: img7,
                   alt: "Image 7",
-                  title: "Point Defiance Rose Garden",
-                  subtitle: "Tacoma, WA"
+                  title: "Lake Crescent",
+                  subtitle: "Port Angeles, WA"
                 },
                 {
                   id: 1,
                   img: img8,
                   alt: "Image 8",
-                  title: "Lake Crescent",
-                  subtitle: "Port Angeles, WA"
+                  title: "Point Defiance Rose Garden",
+                  subtitle: "Tacoma, WA"
                 },
           ]
         },

@@ -5,6 +5,7 @@
     v-bind:carousel2="carousel2"
     v-bind:carousel3="carousel3"
     v-bind:carousel4="carousel4" />
+    <h1>Gallery</h1>
     <Gallery />
     <Footer />
   </div>
@@ -41,3 +42,9 @@ export default {
     }
   }
 </script>
+
+<style scoped>
+h1 {
+  margin-bottom: 100px;
+}
+</style>

@@ -25,5 +25,7 @@ export default Vue.component("Card", {
 </script>
 
 <style scoped>
-
+    .card {
+        margin-bottom: 5% !important;
+    }
 </style>
