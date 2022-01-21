@@ -47,4 +47,28 @@ h1 {
   margin-bottom: 50px;
   margin-top: 50px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  color: rgb(255, 149, 220);
+  border-color: rgb(255, 149, 220);
+}
+
+.btn-secondary {
+  color: rgb(255, 149, 220);
+  background-color: #fff;
+  border-color: rgb(255, 149, 220);
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: rgb(255, 149, 220);
+    transition: ease-in-out 0.1s;
+}
 </style>

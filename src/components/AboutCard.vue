@@ -1,18 +1,18 @@
 <template>
     <div>
-        <b-card no-body class="overflow-hidden mx-auto" style="max-width: 1000px;">
-    <b-row no-gutters>
-      <b-col>
-        <b-card-img :src="img" :alt="alt" class="rounded-1"></b-card-img>
-      </b-col>
-      <b-col>
-        <b-card-body title="Horizontal Card">
-          <b-card-text>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae corporis aperiam, natus saepe aliquid porro cumque harum officia vel qui voluptate commodi, sint aliquam! Esse cupiditate illo modi harum, molestiae, similique fuga suscipit quis in architecto odit doloremque sapiente qui. Ab eum architecto placeat eveniet eaque fugit saepe iure aliquam repellat dolorem, repellendus maxime quisquam rerum laboriosam facilis, ducimus quae corporis unde! Ducimus quae dolorem cupiditate dolor ipsum maxime possimus quibusdam eos amet optio, facilis assumenda aliquam, suscipit veniam.
-          </b-card-text>
-        </b-card-body>
-      </b-col>
-    </b-row>
+        <b-card
+        title="About Me"
+        v-bind:img-src="img"
+        v-bind:img-alt="alt"
+        img-top
+        style="max-width: 80%"
+        class="mb-2 mx-auto"
+  >
+    <b-card-text>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptate earum corrupti possimus ea nisi recusandae labore ut facere, fuga magnam tenetur tempore quasi voluptas. Illum qui quasi aliquid dolor, pariatur officia quibusdam voluptas cupiditate. Sunt quaerat, iste magnam laudantium minus, modi sit fugit maiores consequatur sapiente dolores voluptatum molestias?
+    </b-card-text>
+
+    <b-button pill href="#">Contact</b-button>
   </b-card>
     </div>
 </template>

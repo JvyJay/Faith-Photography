@@ -1,13 +1,15 @@
 <template>
   <div class="contact">
-    <h1>Contact Me</h1>
-    <div class="contact-container">
-      <p><span>Email:</span> {{ email }}</p>
-      <p><span>Phone:</span> {{ phone }}</p>
-      <p><span>Instagram:</span> {{ insta }}</p>
+      <h1>Contact Me</h1>
+        <b-container fluid>
+          <p><span>Email:</span> {{ email }}</p>
+          <p><span>Phone:</span> {{ phone }}</p>
+          <p><span>Instagram:</span> {{ insta }}</p>
+        </b-container>
+      <div class="footer">
+        <footer>Copyright © Faith Photography 2022</footer>
+      </div>
     </div>
-    <footer>Copyright © Faith Photography 2022</footer>
-  </div>
 </template>
 
 <script>
@@ -30,13 +32,6 @@ export default {
 </script>
 
 <style scoped>
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
   span {
     color: rgb(255, 149, 220);
   }
