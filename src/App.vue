@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar v-bind:img="imageData.img" v-bind:alt="imageData.alt" />
+    <Navbar v-bind:img="img" v-bind:alt="alt" />
   </div>
 </template>
 
@@ -15,11 +15,8 @@ export default {
   },
   data() {
     return {
-      imageData:
-      {
         img: img,
         alt: "Logo"
-      }
     }
   }
 };
@@ -44,5 +41,10 @@ a {
 a:hover {
   color: rgb(255, 149, 220);
   transition: ease-in-out 0.1s;
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 </style>

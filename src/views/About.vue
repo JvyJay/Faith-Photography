@@ -19,10 +19,3 @@ export default {
 }
 </script>
 
-<style scoped>
-h1 {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-</style>
-

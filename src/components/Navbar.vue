@@ -10,8 +10,8 @@
       <b-navbar-nav class="ml-auto" right>
         <b-nav-item href="#"><router-link to="/">Home</router-link></b-nav-item>
         <b-nav-item href="#"><router-link to="/about">About</router-link></b-nav-item>
-        <b-nav-item href="#"><router-link to="/contact">Contact</router-link></b-nav-item>
         <b-nav-item href="#"><router-link to="/services">Services</router-link></b-nav-item>
+        <b-nav-item href="#"><router-link to="/contact">Contact</router-link></b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
