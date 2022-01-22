@@ -16,6 +16,7 @@
 import Carousel from '../components/Carousel.vue';
 import Gallery from '../components/Gallery.vue';
 import Footer from '../components/Footer.vue';
+
 // Carousel Images
 import carousel1 from "../assets/carousel01.jpg";
 import carousel2 from "../assets/carousel02.jpg";

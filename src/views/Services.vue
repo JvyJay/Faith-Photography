@@ -20,11 +20,11 @@
               v-bind:alt="cardObj[1].alt" />
             </b-col>
         </b-row>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis optio voluptatem possimus fugit labore quasi dolores distinctio nemo quibusdam sint? Beatae dignissimos eaque modi eos deleniti fuga temporibus voluptate illo quaerat a quae, totam similique, voluptas vero, autem exercitationem sequi non tenetur voluptatum deserunt blanditiis ipsa molestiae. Blanditiis, est architecto.</p>
-      </b-container>
-      <div class="footer">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt ratione corrupti perspiciatis recusandae cupiditate consequuntur dicta aut enim corporis!</p>
+        <div class="footer">
         <footer>Copyright © Faith Photography 2022</footer>
       </div>
+      </b-container>
   </div>
 </template>
 
@@ -47,7 +47,7 @@ export default {
         {
           id: 0,
           title: "Basic Package",
-          subtitle: "$15/hr",
+          subtitle: "$100/Session (1.5 hours, w/20+photos, 1 location)",
           img: basic,
           alt: "Basic Plan Icon",
           Desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae corporis aperiam, natus saepe aliquid porro cumque harum officia vel qui voluptate commodi, sint aliquam! Esse cupiditate illo modi harum, molestiae, similique fuga suscipit quis in architecto odit doloremque"
@@ -55,7 +55,7 @@ export default {
         {
           id: 1,
           title: "Premium Package",
-          subtitle: "$30/hr",
+          subtitle: "$175/Session (2.5 hours, w/30+photos, 2 location)",
           img: premium,
           alt: "Premium Plan Icon",
           Desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae corporis aperiam, natus saepe aliquid porro cumque harum officia vel qui voluptate commodi, sint aliquam! Esse cupiditate illo modi harum, molestiae, similique fuga suscipit quis in architecto odit doloremque"
@@ -68,7 +68,7 @@ export default {
 
 <style scoped>
 footer {
-    position: absolute;
+    position: relative;
     padding: 50px;
     bottom: 0;
   }

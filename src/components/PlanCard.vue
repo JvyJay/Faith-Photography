@@ -8,7 +8,7 @@
             v-bind:sub-title="subtitle"
 
         >
-        <b-button pill>Contact</b-button>
+        <router-link to="/contact"><b-button pill>Contact</b-button></router-link>
         </b-card>
     </div>
 </template>
@@ -53,5 +53,13 @@ export default Vue.component("PlanCard", {
     color: #fff;
     background-color: rgb(255, 149, 220);
     transition: ease-in-out 0.1s;
+}
+
+a {
+    color: rgb(255, 149, 220);
+}
+
+a:hover {
+    color: #fff;
 }
 </style>

@@ -10,6 +10,7 @@
 // Components
 import AboutCard from "../components/AboutCard.vue"
 import Footer from "../components/Footer.vue";
+
 export default {
   name: "About",
   components: {
