@@ -1,7 +1,7 @@
 <template>
   <div class="service">
       <h1>Services</h1>
-      <b-container fluid>
+      <b-container >
         <b-row>
             <b-col>
               <PlanCard 
@@ -9,7 +9,10 @@
               v-bind:title="cardObj[0].title"
               v-bind:subtitle="cardObj[0].subtitle"
               v-bind:img="cardObj[0].img"
-              v-bind:alt="cardObj[0].alt" />
+              v-bind:alt="cardObj[0].alt"
+              v-bind:bulletpoint1="cardObj[0].bulletpoint1"
+              v-bind:bulletpoint2="cardObj[0].bulletpoint2"
+              v-bind:bulletpoint3="cardObj[0].bulletpoint3" />
             </b-col>
             <b-col>
               <PlanCard
@@ -17,10 +20,13 @@
               v-bind:title="cardObj[1].title"
               v-bind:subtitle="cardObj[1].subtitle"
               v-bind:img="cardObj[1].img"
-              v-bind:alt="cardObj[1].alt" />
+              v-bind:alt="cardObj[1].alt"
+              v-bind:bulletpoint1="cardObj[1].bulletpoint1"
+              v-bind:bulletpoint2="cardObj[1].bulletpoint2"
+              v-bind:bulletpoint3="cardObj[1].bulletpoint3" />
             </b-col>
         </b-row>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia incidunt ratione corrupti perspiciatis recusandae cupiditate consequuntur dicta aut enim corporis!</p>
+        <p>To book a consultation please Email or direct message me on instagram with your full name, the package you are interested in and where you are located! I’m so excited to create with you !</p>
         <div class="footer">
         <footer>Copyright © Faith Photography 2022</footer>
       </div>
@@ -47,18 +53,22 @@ export default {
         {
           id: 0,
           title: "Basic Package",
-          subtitle: "$100/Session (1.5 hours, w/20+photos, 1 location)",
+          subtitle: "$100/Session",
           img: basic,
           alt: "Basic Plan Icon",
-          Desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae corporis aperiam, natus saepe aliquid porro cumque harum officia vel qui voluptate commodi, sint aliquam! Esse cupiditate illo modi harum, molestiae, similique fuga suscipit quis in architecto odit doloremque"
+          bulletpoint1: "1.5 Hours",
+          bulletpoint2: "20 Digital Images",
+          bulletpoint3: "1 Location"
         },
         {
           id: 1,
           title: "Premium Package",
-          subtitle: "$175/Session (2.5 hours, w/30+photos, 2 location)",
+          subtitle: "$175/Session",
           img: premium,
           alt: "Premium Plan Icon",
-          Desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur recusandae corporis aperiam, natus saepe aliquid porro cumque harum officia vel qui voluptate commodi, sint aliquam! Esse cupiditate illo modi harum, molestiae, similique fuga suscipit quis in architecto odit doloremque"
+          bulletpoint1: "2.5 Hours",
+          bulletpoint2: "40 Digital Images",
+          bulletpoint3: "2 Locations"
         }
       ]
     }

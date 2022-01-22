@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="plan-card">
         <b-card class="mx-auto"
             v-bind:img-src="img"
             v-bind:img-alt="alt"
@@ -8,6 +8,11 @@
             v-bind:sub-title="subtitle"
 
         >
+        <ul>
+            <li>{{ bulletpoint1 }}</li>
+            <li>{{ bulletpoint2 }}</li>
+            <li>{{ bulletpoint3 }}</li>
+        </ul>
         <router-link to="/contact"><b-button pill>Contact</b-button></router-link>
         </b-card>
     </div>
@@ -23,12 +28,19 @@ export default Vue.component("PlanCard", {
         alt: String,
         title: String,
         subtitle: String,
-        desc: String
+        desc: String,
+        bulletpoint1: String,
+        bulletpoint2: String,
+        bulletpoint3: String
     }
 })
 </script>
 
 <style scoped>
+.plan-card {
+    margin: 10px;
+}
+
 .card-img {
   width: 20% !important;
 }
