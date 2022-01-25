@@ -39,8 +39,8 @@
 import PlanCard from "../components/PlanCard.vue";
 
 // Images
-import basic from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/src/assets/basic-plan.png";
-import premium from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/src/assets/premium-plan.png";
+import basic from "../assets/basic-plan.png";
+import premium from "../assets/premium-plan.png";
 
 export default {
   name: 'Services',

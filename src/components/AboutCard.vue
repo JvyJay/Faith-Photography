@@ -20,7 +20,7 @@
 <script>
 import Vue from 'vue';
 
-import img from "D:/Web Dev-Design/Portfolio-Projects/faith-photography/src/assets/about-photo.jpeg"
+import img from "../assets/about-photo.jpeg"
 
 export default Vue.component("AboutCard",{
     name: "AboutCard",
