@@ -56,7 +56,7 @@ export default {
           subtitle: "$100/Session",
           img: basic,
           alt: "Basic Plan Icon",
-          bulletpoint1: "1.5 Hours",
+          bulletpoint1: "1 Hours",
           bulletpoint2: "20 Digital Images",
           bulletpoint3: "1 Location"
         },
@@ -66,7 +66,7 @@ export default {
           subtitle: "$175/Session",
           img: premium,
           alt: "Premium Plan Icon",
-          bulletpoint1: "2.5 Hours",
+          bulletpoint1: "2 Hours",
           bulletpoint2: "40 Digital Images",
           bulletpoint3: "2 Locations"
         }
